@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Pollars.Models;
+using System;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Pollars.Models
+namespace Pollars.Repositories
 {
 	public interface IRepository<Entity> where Entity : BaseEntity
 	{
-		Task<IEnumerable<Entity>> Get();
-		Task<Entity> GetById(int id);
-		Task Add(Entity entity);
-		Task Update(Entity entity);
-		Task Delete(Entity entity);
+		IQueryable<Entity> Get(Expression<Func<Entity, bool>> predicate = null, params Expression<Func<Entity, object>>[] includeProperties);
+		Entity GetById(int id);
+		Task<Entity> Add(Entity entity);
+		Task<Entity> Update(Entity entity);
+		Task<Entity> Delete(Entity entity);
 	}
 }

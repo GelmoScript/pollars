@@ -8,6 +8,8 @@ namespace Pollar.Service.IoC
 		public static void AddServiceRegistry(this IServiceCollection services)
 		{
 			services.AddTransient<IUserService, UserService>();
+			services.AddTransient<IQuestionService, QuestionService>();
+			services.AddTransient<IPollService, PollService>();
 		}
 	}
 }

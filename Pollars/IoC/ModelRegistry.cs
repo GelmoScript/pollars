@@ -8,7 +8,6 @@ namespace Pollars.IoC
 	{
 		public static void AddModelRegistry(this IServiceCollection services)
 		{
-			services.AddTransient<IUserRepository, UserRepository>();
 			services.AddTransient<PollarsContext>();
 		}
 	}
