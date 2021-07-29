@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pollars", "Pollars\Pollars.csproj", "{A336353C-3D38-429D-921D-7450232A9FFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A336353C-3D38-429D-921D-7450232A9FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A336353C-3D38-429D-921D-7450232A9FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A336353C-3D38-429D-921D-7450232A9FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A336353C-3D38-429D-921D-7450232A9FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30078564-B7D6-47B6-9225-6D73C398134E}
+	EndGlobalSection
+EndGlobal
